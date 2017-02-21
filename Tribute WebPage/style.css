@@ -3,40 +3,29 @@ body{
     padding: 0;
     border-top: 8px solid black;
     border-bottom: 8px solid black;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
 
 .header{
     width: 100%;
-    background: pink;
-    margin: 0 auto;
-}
-
-.slider{
-    width: 25%;
-    float: left;
-    height: 350px;
-}
-
-.roundpic img{
-    width: 100%;
+    margin-top: 50px;
     height: 500px;
+    background: url(images/img8.jpg) top center fixed no-repeat;
+    background-size: cover;
+    filter: grayscale();
 }
 
-.roundpic{
-    width: 25%;
-    margin: 0 auto;
-    padding-top: 30px;
+.section-1, .section-2, .section-3, .section-4{
+    margin: 30px 0;
 }
 
-.section-1{
-    //background: pink;
-
-}
-
-.name{  
-    //background: yellow;
-    width: 35%;
-    margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 15px;
+@media only screen and (max-width: 768px) {
+     .quote-box{
+         border-top: thin solid #333;
+     }
 }
